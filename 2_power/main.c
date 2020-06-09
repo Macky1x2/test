@@ -10,7 +10,7 @@ int main(void)
 	while(1){
 		time_2(&num,&num_pow,&count);
 		round(&num,&num_pow,&count);
-		printf("2 ^ %d = %f Å~ 10^%d\n",count,num,num_pow);
+		printf("2 ^ %d = %f * 10 ^ %d\n",count,num,num_pow);
 	}
 	return 0;
 }
